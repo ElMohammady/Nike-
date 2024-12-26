@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NIKE</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+      
+    />
+     <link rel="stylesheet" <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./png-clipart-swoosh-nike-just-do-it-clothing-logo-adidas-logo-angle-fashion.png" type="image/x-icon" style="border-radius: 50%;">
+    <style>
+      .navbar .nav-link,
+      .navbar .navbar-brand,
+      .navbar .dropdown-menu .dropdown-item,
+      .navbar .btn {
+        
+        
+font-size: 2px;
+        color: white !important;
+      }
+     
+      .navbar .nav-link:hover,
+      .navbar .dropdown-menu .dropdown-item:hover {
+        color: #e27f0e !important; /* لون رمادي عند التمرير */
+        color: rgb(54, 54, 54);
+        
+        border: 1px solid rgba(190, 178, 145, 0.911);
+        border-radius: 5px;
+        margin: 1px;
+      }
+      body {
+        background-image: url(./2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      .text1 {
+        margin-left: 20px;
+        margin-top: 30px;
+      }
+
+      .accordion-button {
+        background-color: transparent !important; /* خلفية شفافة */
+        border: none; /* إزالة الإطار */
+        font-size: 1.5rem; /* تكبير النص */
+        
+      }
+
+      .accordion-body {
+        font-size: 1.2rem; /* تكبير الخط داخل الباراغراف */
+        color: #333; /* لون النص */
+      }
+
+      .accordion-header h3 {
+        margin: 0;
+        font-size: 2rem; /* تكبير العنوان */
+        font-weight: bold;
+      }
+      
+
+
+      .allcard{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 15px;
+        background-color: #dcdcdc13;
+      }
+       .start3 {
+        overflow: hidden;
+        width: 400px;
+        height: 400px;
+        background-color: rgba(253, 252, 255, 0.135);
+        
+        
+        
+        color: rgb(236, 237, 226);
+        font-size: 25px;
+        padding: 13px;
+        padding-bottom: 19px;
+        
+        border-radius: 5px;
+    }
+    .start4 {
+        overflow: hidden;
+        width: 400px;
+        height: 400px;
+        background-color: rgba(253, 252, 255, 0.103);
+
+        
+       
+       
+      
+        color: rgb(236, 237, 226);
+        font-size: 25px;
+        padding: 13px;
+        padding-bottom: 19px;
+        
+        border-radius: 5px;
+    }
+
+    .start5 {
+        overflow: hidden;
+        width: 400px;
+        height: 400px;
+        background-color: rgba(253, 252, 255, 0.103);
+      
+       
+        color: rgb(236, 237, 226);
+        font-size: 25px;
+        padding: 13px;
+        padding-bottom: 19px;
+        
+        border-radius: 5px;
+    }
+    .start3:hover{
+      border: solid 2px white;
+    }
+    .start4:hover{
+      border: solid 2px white;
+    }
+    .start5:hover{
+      border: solid 2px white;
+    }
+
+      .paragr{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 25px;
+        border: solid 1px ;
+        background-color: #dcdcdc11;
+
+      }
+      
+         .start7 {
+        overflow: hidden;
+        width: 700px;
+        height: 220px;
+        background-color: rgba(253, 252, 255, 0);
+        margin-left: 7px;
+       background-color: #eeebf03a;
+       margin: 0px 20px;
+      
+        color: rgba(255, 253, 253, 0.909);
+        font-size: 12px;
+        padding: 13px;
+        padding-bottom: 19px;
+        
+
+    }
+    .start7:hover{
+      border: solid 2px white;
+    }
+    .start7>p{
+      font-size: 20px;
+    }
+     .fif img {
+
+        margin-top: 10px;
+        margin-left: 20px;
+        width: 100px;
+        height: 100px;
+        border: solid 1px rgb(112, 112, 112);
+        /* box-shadow: 0 4px 6px rgba(0, 0,0, 0,1);
+text-align: center; */
+        /* transition: transform 0.9s ease  ; box-shadow: 0.9s ease ; */
+
+    }
+  
+
+    .shoping{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      /* justify-content:space-evenly; */
+      margin-top: 30px;
+    }
+    .vid{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .nike img{
+      width: 750px;
+      margin-left: 400px;
+      margin-top: 20px;
+     text-align: center;
+    }
+    footer {
+
+    
+    width: 100%;
+    height: 500px;
+    background-color: rgb(10, 10, 10);
+    padding: 0;
+    margin-top: 100px;
+    display: flex;
+    
+   
+}
+
+.f1 {
+   
+    color: rgba(194, 194, 194, 0.984);
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.f2 {
+   
+    color: rgba(194, 194, 194, 0.984);
+  
+    
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+
+}
+    </style>
+  </head>
+
+  <body>
+    <header>
+  <nav
+    class="navbar navbar-expand-lg bg-black"
+    style="border-bottom: solid 1px rgba(255, 255, 255, 0.199);"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./1.jpg"></a>
+      <img src="./1.jpg" alt="" style="width: 70px" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        style="border-color: rgba(255, 255, 255, 0.5);" <!-- Optional: border color -->
+      >
+        <span
+          class="navbar-toggler-icon"
+          style="
+            background-color: transparent;
+            -webkit-mask-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D%27http://www.w3.org/2000/svg%27 viewBox%3D%270 0 30 30%27%3E%3Cpath stroke%3D%27rgba(255,255,255,1)%27 stroke-width%3D%272%27 d%3D%27M4 7h22M4 15h22M4 23h22%27/%3E%3C/svg%3E');
+            mask-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D%27http://www.w3.org/2000/svg%27 viewBox%3D%270 0 30 30%27%3E%3Cpath stroke%3D%27rgba(255,255,255,1)%27 stroke-width%3D%272%27 d%3D%27M4 7h22M4 15h22M4 23h22%27/%3E%3C/svg%3E');
+          "
+        ></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../bootstrap/bootstab.html">
+              <h5><i class="fa-solid fa-house"></i> Home </h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../nike-store  farage/about.html">
+              <h5><i class="fa-sharp fa-solid fa-address-card"></i> About </h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Nike project  7amo/flip1market.html">
+              <h5><i class="fa-solid fa-shop"></i>  Market </h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../n-map/find&market.html">
+              <h5><i class="fa-sharp fa-solid fa-location-dot"></i> find&market </h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../nike-store  farage/login.html">
+              <h5> <i class="fa-solid fa-right-to-bracket"></i> login </h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../nike-store  farage/indix.html">
+              <h5><i class="fa-solid fa-user-plus"></i> Signup </h5>
+            </a>
+          </li>
+         
+        </ul>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+    <main>
+      <section>
+        <div class="text1">
+          <h1  style="font-size: 50px;color: chocolate; margin-bottom: 30px;">
+            Just Do iT! <span class="badge text-bg-secondary">New</span>
+          </h1>
+        </div>
+      </section>
+      <section>
+      <div class="accordion accordion-flush" id="accordionFlushExample" >
+  <div class="accordion-item"  style="background-color: #fefbfb0f; border: solid 1px  white;">
+    <h2 class="accordion-header" >
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" >
+        <h3 style="color: aliceblue;">Nike Company</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body" style="color: aliceblue; font-size: 20px;">Nike's influence extends beyond sportswear, as it collaborates with athletes, celebrities, and designers
+                to create innovative and stylish products. Notable endorsements include partnerships with figures , and
+                Cristiano Ronaldo
+                <br>
+                <br> NIKE ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores, minima sequi laborum
+                pariatur magnam voluptate, amet ut debitis quis possimus nemo ipsam evenie</div>
+    </div>
+  </div>
+
+      </section>
+     <div class="allcard">
+         <div class="card mb-3" style="max-width: 540px; background-color: rgba(245, 241, 241, 0.205); border: solid 1px white;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./street-snkrs-aj11-legend-blue-launch-party.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title" style="color: white;">Nike's Recognized</h5>
+        <p class="card-text" style="color: white;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small style="color: white;">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+         <div class="card mb-3" style="max-width: 540px; background-color: rgba(255, 255, 255, 0.196);border: solid 1px white;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./street-snkrs-complexcon-2024.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title" style="color: white;">Nike's Influence Extends</h4>
+        <p class="card-text"style="color: white;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"style="color: white;"><small >Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+         <div class="card mb-3" style="max-width: 540px; background-color: rgba(255, 255, 255, 0.196);border: solid 1px white;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./street-snkrs-sole-intention-cncpts-miami.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title" style="color: white;">Nike's A Renowned American Multinational</h4>
+        <p class="card-text"style="color: white;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"style="color: white;"><small >Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+         <div class="card mb-3" style="max-width: 540px;background-color: rgba(255, 255, 255, 0.196); border: solid 1px white;">
+  <div class="row g-0">
+    <div class="col-md-4" >
+      <img src="./talking-shop-homebred.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h4 class="card-title" style="color: white;">Nike Owns Several Subsidiaries</h4>
+        <p class="card-text"style="color: white;">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"style="color: white;"><small >Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+         
+     </div>
+                  
+                  
+      <section>
+         <div class="accordion accordion-flush" id="accordionFlushExample" >
+  <div class="accordion-item"  style="background-color: #fefbfb13; border: solid 1px white;">
+    <h2 class="accordion-header" >
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" >
+        <h3 style="color: aliceblue;">About Nike</h3>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body" style="color: aliceblue; font-size: 20px;">Nike's , and designers to create innovative and stylish products. Notable endorsements include
+                partnerships with figures , and men  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, doloremque.</div>
+    </div>
+  </div>
+      </section>
+      <section>
+        <div class="paragr">
+
+           <div class="start3">
+
+            <h1> men </h1>
+            <p> Nike's , and designers to create innovative and stylish products. Notable endorsements include
+                partnerships with figures , and men </p>
+        </div>
+        <div class="start4">
+
+            <h1> women</h1>
+            <p> Nike's and designers to create innovative and stylish products. Notable endorsements include
+                partnerships with figures , and women </p>
+
+        </div>
+        <div class="start5">
+
+            <h1> kids </h1>
+            <p> Nike's and designers to create innovative and stylish products. Notable endorsements include
+                partnerships with figures , and keds </p>
+
+        </div>
+
+        </div>
+      </section>
+      <section>
+        <div class="shoping">
+           <div class="start7">
+
+                <h1> Shoping Now </h1>
+                <p > Nike's and designers to create innovative and stylish products. Notable amet dolor sit amet consectetur adipisicing elit. Ducimus in magni consequuntur fugit saepe distinctio, sunt quidem totam provident obcaecati.</p>
+
+            </div>
+            <!-- Shoping Now  ودول ال 12 صورة الي تحت  او بجانب ال  -->
+            <div class="fif">
+                <span>
+
+                    <img src="JR+PHANTOM+LUNA+II+ACAD+F_MG (1).png" alt="">
+                    <img src="JR+PHANTOM+LUNA+II+ACAD+F_MG.png" alt="">
+                    <img src="JR+ZM+VAPOR+16+ACAD+MDS+FG_MG.png" alt="">
+                    <img src="JR+ZOOM+SUPERFLY+9+ACAD+FG_MG (1).png" alt="">
+                    <img src="JR+ZOOM+SUPERFLY+9+ACAD+FG_MG.png" alt="">
+                    <img src="JR+ZOOM+VAPOR+16+ACADEMY+FG_MG (2).png" alt="">
+                    <div>
+                        <img src="JR+PHANTOM+LUNA+II+ACAD+F_MG (1).png" alt="">
+                        <img src="JR+PHANTOM+LUNA+II+ACAD+F_MG.png" alt="">
+                        <img src="JR+ZM+VAPOR+16+ACAD+MDS+FG_MG.png" alt="">
+                        <img src="JR+ZOOM+SUPERFLY+9+ACAD+FG_MG (1).png" alt="">
+                        <img src="JR+ZOOM+SUPERFLY+9+ACAD+FG_MG.png" alt="">
+                        <img src="JR+ZOOM+VAPOR+16+ACADEMY+FG_MG (2).png" alt="">
+                    </div>
+                </span>
+        </div>
+      </section>
+      <section>
+        <div class="vid">
+          <iframe width="800" height="400" src="https://www.youtube.com/embed/uXlWYZ022zU?si=51Wt7C0_D4Usho6C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+      </section>
+      <section>
+        <!-- <div class="nike">
+          <img src="./27372.jpeg" alt="">
+        </div> -->
+      </section>
+       </main>
+    <footer>
+              <div class="f1">
+
+            <!--        font osme الفوتر وانا عامل ان اوردر ليست علشان يرصهم تحت بعض  ومستخدمم -->
+            <ul>
+                <h3> Follow us on social media </h3>
+                <li> <i class="fa-brands fa-facebook"></i> facebook </li>
+                <li> <i class="fa-brands fa-square-instagram"></i> instagram</li>
+                <li> <i class="fa-brands fa-twitter"></i> twittrr </li>
+                <li> <i class="fa-brands fa-youtube"></i> youtube </li>
+                <li> <i class="fa-brands fa-linkedin"></i> linkedin </li>
+
+            </ul>
+            <div class="f2">
+
+                <!--  that same -->
+                <ul>
+                    <h3> Bages </h3>
+                    <li> home </li>
+                    <li> about </li>
+                    <li> login </li>
+                    <li> market</li>
+                    <li> find market</li>
+                    <li> sigun up</li>
+
+                </ul>
+
+
+                <h4 style="position: relative; right: 70px; top: 11px;">
+                    @ 2024 black team
+                </h4>
+            </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
